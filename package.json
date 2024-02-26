@@ -4,15 +4,17 @@
   "description": "Clone do tabnews com foco em praticar o conteúdo do curso curso.dev",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next dev",
     "lint:check": "prettier --check .",
-    "lint:fix": "prettier --write ."
+    "lint:fix": "prettier --write .",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jest": "^29.7.0",
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
